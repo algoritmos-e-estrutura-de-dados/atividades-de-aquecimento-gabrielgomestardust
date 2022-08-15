@@ -1,7 +1,7 @@
-a = int(input("Digite um número:"))
-b = int(input("Digite um número:"))
+a = int(input())
+b = int(input())
 x = int
 
 x = a + b
 
-print("X =", x)
+print(f"X = {x}")

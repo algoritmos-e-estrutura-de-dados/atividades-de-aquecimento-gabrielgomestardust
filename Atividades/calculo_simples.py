@@ -1,11 +1,11 @@
-codigo, unidades, preco = input().split(" ")
-codigo1, unidades1, preco1 = input().split(" ")
+linha = input().split(' ')
+linha1 = input().split(' ')
 
-codigo = int(codigo)
-unidades = int(unidades)
-preco = float(preco)
-codigo1 = int(codigo)
-unidades1 = int(unidades)
-preco1 = float(preco)
+codeP, unidades, preco = linha
+codeP1, unidades1, preco1 = linha1
+
+total = (int(unidades) * float(preco)) + (int(unidades1) * float(preco1))
+
+print('VALOR A PAGAR: R$ %.2f'%total)
 
 
